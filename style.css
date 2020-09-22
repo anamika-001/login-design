@@ -1,0 +1,50 @@
+.container{
+	background-color: #F46C7C;
+	height: auto;
+	width:1200px;
+	
+}
+.form-group{
+	background: white;
+	padding-top: 10px 10px 10px 10px;
+	
+}
+.form-control{
+	height: 10px;
+}
+.row{
+   
+    
+    height: auto;
+    weight:auto;
+   
+    padding: 80px 100px 100px 80px;
+	
+}
+.btn{
+	height: 30px;
+	width:150px;
+	border: none;
+	align-items: center;
+}
+.img-icon{
+	height: 20px;
+	width:15px;
+}
+.forget{
+	float: right;
+
+}
+.btnn{
+	padding: 10px;
+
+}
+.bottom{
+	text-align: center;
+}
+
+.button{
+	text-align: center;
+}
+
+
