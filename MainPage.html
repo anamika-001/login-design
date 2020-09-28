@@ -100,8 +100,8 @@
 				<h1>Featured Maids</h1>
 			</div>
 
-			<div id="owl-demo" class="owlcarousel owl-theme">
-			<div class="col-12 d-flex justify-content-sm-around feature-pic text-center">
+			<div id="owl-demo" class="owl-carousel owl-theme">
+			
 			  
 
 				<div class="item">
@@ -166,17 +166,6 @@
 					</div>
 
 				</div>
-
-				<div class="item">
-
-					<img src="maid.jpg" class="maid-image">
-					<div class="text-center">
-						<h4 style="font-size: 23.5px;">Agency Name</h4>
-						<h5>Nationality</h5>
-					</div>
-
-				</div>
-
 				<div class="item">
 
 					<img src="maid.jpg" class="maid-image">
@@ -213,14 +202,9 @@
 					</div>
 
 				</div>
-			</div>
-			</div>
-			<div class="customNavigation">
-            <a class="btn prev">Previous</a>
-            <a class="btn next">Next</a>
-             <a class="btn play">Autoplay</a>
-              
-                </div>
+
+				
+            </div>
             
 		</div>
 
@@ -467,35 +451,19 @@
 
 	
 <script src="owlcarousel/owl.carousel.min.js"></script>
-<script>
-	$(document).ready(function() {
+<!-- <script src="javascript.js"></script> -->
+<script type="text/javascript">$(document).ready(function() {
  
-  var owl = $("#owl-demo");
+  $("#owl-demo").owlCarousel({
  
-  owl.owlCarousel({
-      items : 5, //10 items above 1000px browser width
-      itemsDesktop : [1000,5], //5 items between 1000px and 901px
-      itemsDesktopSmall : [900,3], // betweem 900px and 601px
-      itemsTablet: [600,2], //2 items between 600 and 0
-      itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
+      items : 4,
+      itemsDesktop : [1199,3],
+      itemsDesktopSmall : [979,3]
+ 
   });
  
-  // Custom Navigation Events
-  $(".next").click(function(){
-    owl.trigger('owl.next');
-  })
-  $(".prev").click(function(){
-    owl.trigger('owl.prev');
-  })
-  $(".play").click(function(){
-    owl.trigger('owl.play',1000); //owl.play event accept autoPlay speed as second parameter
-  })
-  $(".stop").click(function(){
-    owl.trigger('owl.stop');
-  })
- 
-});
- 
-</script>
+});</script>
+
+
 	</body>
 	</html>
