@@ -1,24 +1,30 @@
 <html>
 <head>
-	<link href="MainStyle.css" rel="stylesheet">
+	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link href="MainStyle.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+	
 </head>
 <body>
-	<div class="container">
-		<div class="row">
+	<div class="container-fullwidth">
+	
+		<div class="row text-center" style="height: 150px;">
 			<div class="col-sm-3">
-				<div class="logo">
+				<div class="logo text-center">
+					<h1>
+						MAID<span class="text-danger">EASY</span>
+					</h1>
 				</div>
 			</div>
+
 			<div class="col-sm-9 d-flex justify-content-sm-between">
-
 				<div class="col-sm-6 d-flex justify-content-sm-around">
-
-					<div> <a>Search Maids</a>
+					<div>
+						<a>Search Maids</a>
 					</div>
 					<div>
 						<a>About Us</a>
@@ -29,83 +35,197 @@
 					<div>
 						<a>Contact Us</a>
 					</div>
-
 				</div>
 
 				<div class="col-sm-3 d-flex justify-content-sm-around text-danger">
 					<div>
-						<a><img src="download.png" id="image">Login</a>
+						<a>
+							<img src="download.png" id="image"/>Login
+						</a>
 					</div>
 					<div>
-						<a>Sign Up</a></div>
+						<a>Sign Up</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!---banner--->
+
+		<div class="row background">    
+			<div class="col-md-12">
+				<div id="demo" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+                     <ul class="carousel-indicators">
+                     <li data-target="#demo" data-slide-to="0" class="active"></li>
+                     <li data-target="#demo" data-slide-to="1"></li>
+                     <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="maid2.jpg">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="unnamed.jpg">
+                     </div>
+                      <div class="carousel-item">
+                        <img src="maid3.jpg">
+                      </div>
+                    </div>
+
+                   <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                         <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                         <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+
+               <!--  search input -->
+				<form class="form-group">
+				<input type="text" name="Search" placeholder="Search by Nationality or Service Category" class="dropdown-toggle"
+				/>
+				<button class="btn btn-danger Search">Search</button>
+			</form>
+			</div>
+		</div>
+
+       
+       <!-----featured--->
+        <div class="row feature">
+			<div class="col-12 feature-text text-center">
+				<h1>Featured Maids</h1>
+			</div>
+
+			<div id="owl-demo" class="owlcarousel owl-theme">
+			<div class="col-12 d-flex justify-content-sm-around feature-pic text-center">
+			  
+
+				<div class="item">
+					<img src="maid.jpg" class="maid-image">
+					<div class="text-center">
+						<h4 style="font-size: 23.5px;">Agency Name</h4>
+						<h5>Nationality</h5>
+					</div>
+
+				</div>
+				<div class="item">
+					<img src="maid.jpg" class="maid-image">
+					<div class="text-center">
+						<h4 style="font-size: 23.5px;">Agency Name</h4>
+						<h5>Nationality</h5>
+					</div>
+
+
+				</div>
+				<div class="item">
+
+					<img src="maid.jpg" class="maid-image">
+					<div class="text-center">
+						<h4 style="font-size: 23.5px;">Agency Name</h4>
+						<h5>Nationality</h5>
+					</div>
+
+				</div>
+				<div class="item">
+					<img src="maid.jpg" class="maid-image" style="padding: 0px">
+					<div class="text-center">
+						<h4 style="font-size: 23.5px;">Agency Name</h4>
+						<h5>Nationality</h5>
+					</div>
+
+				</div>
+				<div class="item">
+
+					<img src="maid.jpg" class="maid-image">
+					<div class="text-center">
+						<h4 style="font-size: 23.5px;">Agency Name</h4>
+						<h5>Nationality</h5>
+					</div>
+
+				</div>
+
+				<div class="item">
+
+					<img src="maid.jpg" class="maid-image">
+					<div class="text-center">
+						<h4 style="font-size: 23.5px;">Agency Name</h4>
+						<h5>Nationality</h5>
+					</div>
+
+				</div>
+				<div class="item">
+
+					<img src="maid.jpg" class="maid-image">
+					<div class="text-center">
+						<h4 style="font-size: 23.5px;">Agency Name</h4>
+						<h5>Nationality</h5>
+					</div>
+
+				</div>
+
+				<div class="item">
+
+					<img src="maid.jpg" class="maid-image">
+					<div class="text-center">
+						<h4 style="font-size: 23.5px;">Agency Name</h4>
+						<h5>Nationality</h5>
+					</div>
+
+				</div>
+
+				<div class="item">
+
+					<img src="maid.jpg" class="maid-image">
+					<div class="text-center">
+						<h4 style="font-size: 23.5px;">Agency Name</h4>
+						<h5>Nationality</h5>
+					</div>
+
+				</div>
+				<div class="item">
+
+					<img src="maid.jpg" class="maid-image">
+					<div class="text-center">
+						<h4 style="font-size: 23.5px;">Agency Name</h4>
+						<h5>Nationality</h5>
+					</div>
+
+				</div>
+				<div class="item">
+
+					<img src="maid.jpg" class="maid-image">
+					<div class="text-center">
+						<h4 style="font-size: 23.5px;">Agency Name</h4>
+						<h5>Nationality</h5>
+					</div>
+
+				</div>
+				<div class="item">
+
+					<img src="maid.jpg" class="maid-image">
+					<div class="text-center">
+						<h4 style="font-size: 23.5px;">Agency Name</h4>
+						<h5>Nationality</h5>
 					</div>
 
 				</div>
 			</div>
-			<div class="row background">    
-				<div class="col-md-12"  >
-					<form class="form-group">
-						<input type="text" name="Search" placeholder="Search by Nationality or Service Category" class="dropdown-toggle"
-						>
-						<button class="btn btn-danger Search">Search</button>
-					</form>
-				</div>
 			</div>
+			<div class="customNavigation">
+            <a class="btn prev">Previous</a>
+            <a class="btn next">Next</a>
+             <a class="btn play">Autoplay</a>
+              
+                </div>
+            
+		</div>
 
 
-			<div class="row feature">
-				<div class="col-12 feature-text text-center">
-					<h1>Featured Maids</h1>
-				</div>
-				<div class="col-12 d-flex justify-content-sm-around feature-pic">
-					<div class="col-md-2">
-						<img src="maid.jpg" class="maid-image">
-						<div class="text-center">
-							<h4 style="font-size: 23.5px;">Agency Name</h4>
-							<h5>Nationality</h5>
-						</div>
-
-					</div>
-					<div class="col-md-2">
-						<img src="maid.jpg" class="maid-image">
-						<div class="text-center">
-							<h4 style="font-size: 23.5px;">Agency Name</h4>
-							<h5>Nationality</h5>
-						</div>
-
-
-					</div>
-					<div class="col-md-2">
-
-						<img src="maid.jpg" class="maid-image">
-						<div class="text-center">
-							<h4 style="font-size: 23.5px;">Agency Name</h4>
-							<h5>Nationality</h5>
-						</div>
-
-					</div>
-					<div class="col-md-2">
-						<img src="maid.jpg" class="maid-image" style="padding: 0px">
-						<div class="text-center">
-							<h4 style="font-size: 23.5px;">Agency Name</h4>
-							<h5>Nationality</h5>
-						</div>
-
-					</div>
-					<div class="col-md-2">
-
-						<img src="maid.jpg" class="maid-image">
-						<div class="text-center">
-							<h4 style="font-size: 23.5px;">Agency Name</h4>
-							<h5>Nationality</h5>
-						</div>
-
-					</div>
-				</div>
-			</div>
-
-
-
+       <!--  populaar services -->
 		<div class="row popular-service">
 			<div class="col-12 text-center text-service">
 				<h1>Most Popular Service</h1>
@@ -119,8 +239,8 @@
 					</div>
 				</div>
 
-                <div class="col-sm-3 text-center" id="testdiv">
-                          <img src="cook-icon.jpg" class="popular-img">
+				<div class="col-sm-3 text-center" id="testdiv">
+					<img src="cook-icon.jpg" class="popular-img">
 					<div class="text-center text-service">
 						<h3>Cook</h3>
 					</div>
@@ -128,7 +248,7 @@
 
 
 				<div class="col-sm-3 text-center" id="testdiv">
-                     <img src="senior.png" class="popular-img">
+					<img src="senior.png" class="popular-img">
 					<div class="text-center text-service">
 						<h3>Senior Citizen Care</h3>
 					</div>
@@ -136,7 +256,7 @@
 
 
 				<div class="col-sm-3 text-center">
-                          <img src="housemaid.jpg" class="popular-img">
+					<img src="housemaid.jpg" class="popular-img">
 					<div class="text-center text-service">
 						<h3>House Maid</h3>
 					</div>
@@ -147,193 +267,235 @@
 			</div>
 
 		</div>					
+         <!-- working -->
+		<div class="row working" style="height:400px; background: #FFEBEE;">
+			<div class="col-12 text-center">
+				<h1>How It Works</h1>
+			</div>
 
-       <div class="row working" style="height:550px; background: #FFEBEE;">
-       	   <div class="col-12 text-center">
-              <h1>How It Works</h1>
-       	    </div>
+			<div class="col-12 d-flex justify-content-sm-around" style="height: fit-content;">
+				<div class="col-sm-4 text-center">
 
-        	<div class="col-12 d-flex justify-content-sm-around">
-       	        <div class="col-sm-4 text-center">
-       	          
-       	           	 <div>
-                     <img src="search.png" class="working-img">
-                     </div>
-                     <div>
-                 	<h3>Search</h3>
-                    </div>
-                     <div>
-                      <p>Use our simple search and tell us what you require. See list of all the available maids in your area</p>
-                     </div>
-       	         </div>
+					<div>
+						<img src="search.png" class="working-img">
+					</div>
+					<div>
+						<h3>Search</h3>
+					</div>
+					<div>
+						<p>Use our simple search and tell us what you require. See list of all the available maids in your area</p>
+					</div>
+				</div>
 
-                 <div class="col-sm-4 text-center text">
+				<div class="col-sm-4 text-center text">
 
-                 	<div>
-                     <img src="shortlist.jpg" class="working-img">
-                     </div>
-                     <div>
-                 	<h3>Shortlist</h3>
-                    </div>
-                     <div>
-                      <p>View the complete profile of the hundreds of available maids and shorlist as per your preference</p>
-                     </div>
+					<div>
+						<img src="shortlist.jpg" class="working-img">
+					</div>
+					<div>
+						<h3>Shortlist</h3>
+					</div>
+					<div>
+						<p>View the complete profile of the hundreds of available maids and shorlist as per your preference</p>
+					</div>
 
-       	          </div>
-       	        
+				</div>
 
-       	            <div class="col-sm-4 text-center">
 
-       	            	<div>
-                     <img src="handshake.jpg" class="working-img">
-                     </div>
-                     <div>
-                 	<h3>Meet,Select & Relax</h3>
-                    </div>
-                     <div>
-                      <p>Talk to the maid on the phone or mewet her personally. Select the maid and pay only after the maid joins</p>
-                     </div>
+				<div class="col-sm-4 text-center">
 
-       	           </div>
+					<div>
+						<img src="handshake.jpg" class="working-img">
+					</div>
+					<div>
+						<h3>Meet,Select & Relax</h3>
+					</div>
+					<div>
+						<p>Talk to the maid on the phone or mewet her personally. Select the maid and pay only after the maid joins</p>
+					</div>
 
-             </div>
-           
+				</div>
 
-           </div>
+			</div>
 
-           
-           	<div class="row" style="height: 600px;">
 
-           		<div class="col-12 text-center">
+		</div>
+
+        <!-- why our client loves us -->
+		<div class="row" style="height: 600px;">
+
+			<div class="col-12 text-center">
 				<h1>Why Our Client Loves Us</h1>
-			    </div>
-
-           	
-
-           	     <div class="d-flex justify-content-sm-around" style="height: 400px;">
-                     <div class="col-sm-4 text-center">
-                     	<img src="men1.jpg" class="img-men">
-                     	<h3>Daniel</h3>
-                     	<div>
-                     		<span class="fa fa-star checked"></span>
-                           <span class="fa fa-star checked"></span>
-                           <span class="fa fa-star checked"></span>
-                             <span class="fa fa-star checked"></span>
-                         <span class="fa fa-star"></span>
-                     	</div>
-                     	<div>
-                     		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sollicitudin pellentesque elit ut rutrum. Phasellus sit amet justo sed ex aliquam tincidunt a id metus. </p>
-                     	</div>
-                     </div>
-                      <div class="col-sm-4 text-center" style="height: 500px;">
-                      	<img src="men2.jpg" class="img-men">
-                      	<h3>Mitchel</h3>
-                      	<div>
-                     		<span class="fa fa-star checked"></span>
-                           <span class="fa fa-star checked"></span>
-                           <span class="fa fa-star checked"></span>
-                             <span class="fa fa-star checked"></span>
-                         <span class="fa fa-star"></span>
-                     	</div>
-                     	<div>
-                     		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sollicitudin pellentesque elit ut rutrum. Phasellus sit amet justo sed ex aliquam tincidunt a id metus. </p>
-                     	</div>
-                      </div>
-                       <div class="col-sm-4 text-center">
-                       	<img src="men3.jpg" class="img-men">
-
-                       	<h3>Johnson</h3>
-                       	<div>
-                     		<span class="fa fa-star checked"></span>
-                           <span class="fa fa-star checked"></span>
-                           <span class="fa fa-star checked"></span>
-                             <span class="fa fa-star checked"></span>
-                         <span class="fa fa-star"></span>
-                     	</div>
-                     	<div>
-                     		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sollicitudin pellentesque elit ut rutrum. Phasellus sit amet justo sed ex aliquam tincidunt a id metus. </p>
-                     	</div>
-                       </div>
+			</div>
 
 
-               	</div>
-           </div>
+
+			<div class="d-flex justify-content-sm-around" style="height: 400px;">
+				<div class="col-sm-4 text-center">
+					<img src="men1.jpg" class="img-men">
+					<h3>Daniel</h3>
+					<div>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star"></span>
+					</div>
+					<div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sollicitudin pellentesque elit ut rutrum. Phasellus sit amet justo sed ex aliquam tincidunt a id metus. </p>
+					</div>
+				</div>
+				<div class="col-sm-4 text-center" style="height: 500px;">
+					<img src="men2.jpg" class="img-men">
+					<h3>Mitchel</h3>
+					<div>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star"></span>
+					</div>
+					<div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sollicitudin pellentesque elit ut rutrum. Phasellus sit amet justo sed ex aliquam tincidunt a id metus. </p>
+					</div>
+				</div>
+				<div class="col-sm-4 text-center">
+					<img src="men3.jpg" class="img-men">
+
+					<h3>Johnson</h3>
+					<div>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star"></span>
+					</div>
+					<div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sollicitudin pellentesque elit ut rutrum. Phasellus sit amet justo sed ex aliquam tincidunt a id metus. </p>
+					</div>
+				</div>
 
 
-           <div class="row text-service" style="background: LightCoral; padding: 20px 30px 20px 30px; height: 325px;">
-           	 <div class="col-sm-3 align-item text-center">
-           	 	<div style="padding: 10px;">
-           	 		<h1>MAIDEASY</h1>
-           	 	</div>
-           	 	
-           	 			<div style="padding: 10px;" class="text-center">
-                     		<p id="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sollicitudin pellentesque elit ut rutrum.  </p>
-                     	</div>
-           	 			
-           	 	
-           	 </div>
-                <div class="col-sm-9 text-center" style="font-weight: bold; font-size: 18px; ">
+			</div>
+		</div>
 
-                	<div class="d-flex justify-content-sm-around  text-center">
-                      <div>
-                      	TERMS AND CONDITIONS
-                      </div>
+        <!-- Services -->
+		<div class="row text-service" style="background: LightCoral; padding: 20px 30px 20px 30px; height: 325px;">
+			<div class="col-sm-3 align-item text-center">
+				<div style="padding: 10px;">
+					<h1>MAIDEASY</h1>
+				</div>
 
-                       <div>
-                       	ABOUT US
-                      </div>
-
-                       <div>
-                       	CONTACT US
-                      </div>
-
-                       <div>
-                       	SITE MAP
-                      </div>
-
-                       <div>
-                       	PRIVACY POLICY
-                      </div>
-                	</div>
+				<div style="padding: 10px;" class="text-center">
+					<p id="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sollicitudin pellentesque elit ut rutrum.  </p>
+				</div>
 
 
-                	<div class="d-flex justify-content-sm-around">
+			</div>
+			<div class="col-sm-9 text-center" style="font-weight: bold; font-size: 18px; ">
 
-                		<div>
-                			<img src="">
-                            9876793610
-                		</div>
+				<div class="d-flex justify-content-sm-around  text-center">
+					<div>
+						TERMS AND CONDITIONS
+					</div>
 
-                		<div>
-                			<img src="">
-                            SUPPORT@GMAIL.COM
-                		</div>
+					<div>
+						ABOUT US
+					</div>
 
-                	</div>
+					<div>
+						CONTACT US
+					</div>
 
-                	<div class="d-flex justify-content-sm-end" id="icon">
-                		<div class="icon-margin">
-                            <img src="facebook.png" class="icon">
-                		</div>
+					<div>
+						SITE MAP
+					</div>
 
-                		<div class="icon-margin">
-              <img src="youtube.png" class="icon">
-                		</div>
-
-                		<div class="icon-margin">
-
-              <img src="twitter.png" class="icon">
-                			</div>
-
-                			<div class="icon-margin">
-                              <img src="google.png" class="icon">
-                	</div>
+					<div>
+						PRIVACY POLICY
+					</div>
+				</div>
 
 
-                </div>
+				<div class="d-flex justify-content-sm-around">
 
-           </div>
+					<div>
+						<img src="call.png" class="small-icon">
+						9876793610
+					</div>
 
-	</div>
-</body>
-</html>
+					<div>
+						<img src="mail.png" class="small-icon">
+						SUPPORT@GMAIL.COM
+					</div>
+
+				</div>
+
+				<div class="d-flex justify-content-sm-end" id="icon">
+					<div class="icon-margin">
+						<img src="facebook.png" class="icon">
+					</div>
+
+					<div class="icon-margin">
+						<img src="youtube.png" class="icon">
+					</div>
+
+					<div class="icon-margin">
+
+						<img src="twitter.png" class="icon">
+					</div>
+
+					<div class="icon-margin">
+						<img src="google.png" class="icon">
+					</div>
+
+
+				</div>
+
+			</div>
+
+			<div class="text-danger" style="padding-top:125;padding-left:350px;">
+				<h5>Copyright c 2020 All Right Reserved By MadeEasy</h5>
+			</div>
+
+		</div>
+	  
+    </div>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+	
+<script src="owlcarousel/owl.carousel.min.js"></script>
+<script>
+	$(document).ready(function() {
+ 
+  var owl = $("#owl-demo");
+ 
+  owl.owlCarousel({
+      items : 5, //10 items above 1000px browser width
+      itemsDesktop : [1000,5], //5 items between 1000px and 901px
+      itemsDesktopSmall : [900,3], // betweem 900px and 601px
+      itemsTablet: [600,2], //2 items between 600 and 0
+      itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
+  });
+ 
+  // Custom Navigation Events
+  $(".next").click(function(){
+    owl.trigger('owl.next');
+  })
+  $(".prev").click(function(){
+    owl.trigger('owl.prev');
+  })
+  $(".play").click(function(){
+    owl.trigger('owl.play',1000); //owl.play event accept autoPlay speed as second parameter
+  })
+  $(".stop").click(function(){
+    owl.trigger('owl.stop');
+  })
+ 
+});
+ 
+</script>
+	</body>
+	</html>
