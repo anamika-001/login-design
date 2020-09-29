@@ -51,11 +51,11 @@
 	width: 180px;
 	border-color: grey;
 }
-.maid-image{
+/*.maid-image{
 	border-radius: 100%;
-	width: 160px;
-	height: 160px;
-}
+	width: 100px;
+	height: 100px;
+}*/
 .background{
 	
 	background-repeat: no-repeat;
@@ -131,7 +131,7 @@ a{
 	width: 400px;
 }
 h3{
-	padding: 10px;
+	padding:10px;
 }
 p{
 	font-size: 20px;
@@ -174,12 +174,98 @@ p{
 /*.row{
 	height: fir-content;
 }*/
-
+/*#owl-demo{
+	width: 
+}
 #owl-demo .item{
   margin: 3px;
+  height:fit-content;
+  width: auto;
+  text-align: center;
 }
-#owl-demo .item img{
-  display: block;
-  width: 100%;
-  height: auto;
+
+#owl-demo .item .maid-image{
+     display: block; 
+    width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
+*/
+.carousel-wrap {
+    width: 1000px;
+    margin: auto;
+    position: relative;
+
+  }
+  .owl-carousel .owl-nav{
+    overflow: hidden;
+    height: 0px;
+  }
+
+  .owl-theme .owl-dots .owl-dot.active span, 
+  .owl-theme .owl-dots .owl-dot:hover span {
+      background: black;
+  }
+
+
+  .owl-carousel .item {
+      text-align: center;
+      height: fit-content;
+      width: 150px;
+
+
+  }
+  .owl-carousel .item .maid-image{
+     display: block;
+     height: 150;
+     width: 150;
+  	border-radius: 50%;
+  } 
+  .owl-carousel .nav-btn{
+      height: 47px;
+      position: absolute;
+      width: 26px;
+      cursor: pointer;
+      top: 100px !important;
+      color: black;
+  }
+
+  /*.owl-carousel .owl-prev.disabled,
+  .owl-carousel .owl-next.disabled{
+    pointer-events: none;
+    opacity: 0.2;
+  }*/
+
+  .owl-carousel .prev-slide{
+      background: url(nav-icon.png) no-repeat scroll 0 0;
+      left: -33px;
+  }
+  .owl-carousel .next-slide{
+      background: url(nav-icon.png) no-repeat scroll -24px 0px;
+      right: -33px;
+  }
+  .owl-carousel .prev-slide:hover{
+     background-position: 0px -53px;
+  }
+  .owl-carousel .next-slide:hover{
+    background-position: -24px -53px;
+  }
+
+  span.img-text {
+    text-decoration: none;
+    outline: none;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    cursor: pointer;
+    width: 100%;
+    font-size: 23px;
+    display: block;
+    text-transform: capitalize;
+  }
+  span.img-text:hover {
+    color: #2caae1;
+  }
+
+

@@ -3,10 +3,11 @@
 	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="MainStyle.css" rel="stylesheet">
+	
 
 	<link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
 <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+<link href="MainStyle.css" rel="stylesheet">
 	
 </head>
 <body>
@@ -95,18 +96,20 @@
 
        
        <!-----featured--->
-        <div class="row feature">
+        <div class="row feature" style="height: fit-content;">
 			<div class="col-12 feature-text text-center">
 				<h1>Featured Maids</h1>
 			</div>
-
+            
+            <div class="carousel-wrap">
 			<div id="owl-demo" class="owl-carousel owl-theme">
+
 			
 			  
 
-				<div class="item">
+				<div class="item" style="width: 200px;">
 					<img src="maid.jpg" class="maid-image">
-					<div class="text-center">
+					<div>
 						<h4 style="font-size: 23.5px;">Agency Name</h4>
 						<h5>Nationality</h5>
 					</div>
@@ -203,9 +206,19 @@
 
 				</div>
 
+				</div>
+               <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#owl-demo" data-slide="prev">
+                         <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#owl-demo" data-slide="next">
+                         <span class="carousel-control-next-icon"></span>
+                    </a>
 				
-            </div>
             
+            </div>
+
+
 		</div>
 
 
