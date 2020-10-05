@@ -5,10 +5,23 @@
 
 
 }
-.row{
-	padding-left: 100px;
-	padding-right: 100px;
+.btn-danger {
+    color: #fff;
+    background-color: #ee6e73;
+    border:none;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
 }
+button{
+  margin: 5px;
+
+}
+/*.row{
+	padding-left: 0px;
+	padding-right: 0px;
+}*/
  .carousel-inner img {
     width: 100%;
     height: 100%;
@@ -31,11 +44,7 @@
  padding: 20px;
 }
 
-.logo{
-	top: 100px;
-	padding: 20px;
-	margin: 10px;
-}
+
 
 .text-center{
 	
@@ -73,26 +82,28 @@
 }
 .form-group {
     position: absolute;
-    width: 100%;
-    top: 50%;
+    width: 50%;
+    top: 40%;
+    left: 25%;
     text-align: center;
 }
 .dropdown-toggle{
-	width: 50%;
-height: 35px;
+	width: 70%;
+height: 50px;
 border-radius: 7px;
   border: 1px solid #D3D3D3;
   padding-left:10px;
+  margin: 5px;
 
 }
 
-/*div{
-	padding: 10px;
-}*/
+.logo{
+  top:30px;
+}
 a{
 	padding: 2px;
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 14px;
 }
 #image{
 	padding: 2px;
@@ -105,7 +116,7 @@ a{
 }
 .popular-service{
 	height: 350px;
-	background: LightCoral;
+	background: #ee6e73;
 }
 .popular-img{
 	height: 140px;
@@ -113,8 +124,8 @@ a{
 	border-radius: 100%;
 }
 .col-sm-3{
-	height: 180px;
-    width: 180px;
+	  
+    text-align: center;
     border-color: pink;
 }
 #testdiv{
@@ -123,6 +134,11 @@ a{
 .col-12{
 	padding: 0px;
 
+}
+
+.col-md-12{
+  padding-left: 0px;
+  padding-right: 0px;
 }
 .working-img{
 	height: 80px;
@@ -134,11 +150,9 @@ a{
 	height: 200px;
 	width: 400px;
 }
-h3{
-	padding:10px;
-}
+
 p{
-	font-size: 20px;
+	font-size: 14px;
 	color: grey;
 	font-weight: bold;
 }
@@ -149,7 +163,7 @@ p{
 	border-radius: 100%;
 }
 .checked{
-	color:LightCoral;
+	color:#ee6e73;
 	
 }
 
@@ -175,26 +189,7 @@ p{
 	width: 25px;
 	border-radius: 100%;
 }
-/*.row{
-	height: fir-content;
-}*/
-/*#owl-demo{
-	width: 
-}
-#owl-demo .item{
-  margin: 3px;
-  height:fit-content;
-  width: auto;
-  text-align: center;
-}
 
-#owl-demo .item .maid-image{
-     display: block; 
-    width: 100px;
-  height: 100px;
-  border-radius: 50%;
-}
-*/
 .carousel-wrap {
     width: 1000px;
     margin: auto;
@@ -235,12 +230,7 @@ p{
       color: black;
   }
 
-  /*.owl-carousel .owl-prev.disabled,
-  .owl-carousel .owl-next.disabled{
-    pointer-events: none;
-    opacity: 0.2;
-  }*/
-
+  
   .owl-carousel .prev-slide{
       background: url(nav-icon.png) no-repeat scroll 0 0;
       left: -33px;
