@@ -10,7 +10,7 @@
     background-color: #ee6e73;
     border:none;
     width: 200px;
-    height: 50px;
+    height: 40px;
     text-align: center;
     border-radius: 10px;
 }
@@ -44,31 +44,12 @@ button{
  padding: 20px;
 }
 
-
-
-.text-center{
-	
-		height: 100px;
-	
-}
-
-.feature{
-	height: 375px;
-}
-
-.feature-pic{
-  height: 250px;
-}
 .col-md-2{
 	height: 180px;
 	width: 180px;
 	border-color: grey;
 }
-.maid-image{
-	border-radius: 100%;
-	width: 100px;
-	height: 100px;
-}
+
 .background{
 	
 	background-repeat: no-repeat;
@@ -89,7 +70,7 @@ button{
 }
 .dropdown-toggle{
 	width: 70%;
-height: 50px;
+height: 40px;
 border-radius: 7px;
   border: 1px solid #D3D3D3;
   padding-left:10px;
@@ -97,10 +78,10 @@ border-radius: 7px;
 
 }
 
-.logo{
-  top:30px;
-}
+
+
 a{
+
 	padding: 2px;
 	font-weight: bold;
 	font-size: 14px;
@@ -115,21 +96,25 @@ a{
 	color:white;
 }
 .popular-service{
-	height: 350px;
+	height: fir-content;
 	background: #ee6e73;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 .popular-img{
-	height: 140px;
-	width: 140px;
+	height: 100px;
+	width: 100px;
 	border-radius: 100%;
+  background: white;
 }
-.col-sm-3{
-	  
+.col{
+	  top: 30px;
     text-align: center;
     border-color: pink;
 }
 #testdiv{
 	border-right: 1px solid white;
+  height: fit-content;
 }
 .col-12{
 	padding: 0px;
@@ -147,7 +132,7 @@ a{
 }
 
 .col-sm-4{
-	height: 200px;
+	height: fit-content;
 	width: 400px;
 }
 
@@ -194,6 +179,8 @@ p{
     width: 900px;
     margin: auto;
     position: relative;
+    padding:40px;
+
 
   }
 
@@ -213,6 +200,9 @@ p{
   height: 40px;
   width: 40px;
   color: #ee6e73;
+  font-size: xx-large;
+  text-align: center;
+  line-height: 40px;
   border-radius: 50%;
   position: absolute;
   left: -73px;
@@ -220,15 +210,26 @@ p{
 }
 .owl-carousel .owl-nav button.owl-next{
   background-color: white;
-  height: 50px;
-  width: 50px;
-  color:#ee6e73;
+  height: 40px;
+  width: 40px;
+  font-size: xx-large;
+  text-align: center;
+  line-height: 40px;
+    color:#ee6e73;
   border-radius: 50%;
   position: absolute;
   right: -32px;
    top: 42px;
+   transition: translateY
 }
 .owl-theme .owl-nav [class*=owl-]:hover {
     background: #ee6e73;
     color: #FFF;
     text-decoration: none;
+  }
+
+  .owl-theme .owl-nav [class*=owl-]:focus{
+    outline:none;
+  }
+
+  
