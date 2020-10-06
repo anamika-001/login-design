@@ -37,11 +37,11 @@ button{
  .carousel-indicators .active{
  	background-color: white;
  }
-.d-flex{
+.header{
  background:snow-white;
  height: 100px;
  width: 100%;
- padding: 20px;
+ padding: 30px;
 }
 
 .col-md-2{
@@ -155,25 +155,29 @@ p{
 #text{
  font-weight: normal;
  color: white;
- font-size: 20px;
+ font-size: 16px;
   text-align: left;
   
 }
-.icon{
-	height: 50px;
-	width: 50px;
-	border-radius: 100%;
 
-}
 .icon-margin{
-	margin: 10px;
+	margin: 10px
+ 
+
 }
 
-.small-icon{
-	height: 25px;
-	width: 25px;
-	border-radius: 100%;
+i{
+    color: white;
+   line-height: 40px;
+    text-align: center;
+    font-size: 27px;
+     height:35px;
+  width: 35px;    
+  border-radius: 50%;
 }
+
+
+
 
 .carousel-wrap {
     width: 900px;
@@ -232,4 +236,5 @@ p{
     outline:none;
   }
 
+  
   
