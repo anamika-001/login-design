@@ -235,6 +235,20 @@ i{
   .owl-theme .owl-nav [class*=owl-]:focus{
     outline:none;
   }
+   
+   .d-flex{
+    width: 100%;
+   }
+  .footer-1{
+    padding: 10px;
+    text-align: left;
+  }
+  .col-1{
+    padding: 20px;
+  }
 
-  
+  .border-bottom{
+    border-bottom: 2px solid white;
+    width: 25px;
+  }
   
