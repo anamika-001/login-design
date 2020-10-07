@@ -99,8 +99,8 @@ a{
 }
 #image{
 	padding: 2px;
-	height: 20px;
-	width: 20px;
+	height: 17px;
+	width: 17px;
 	margin: 2px;
 }
 .text-service{
@@ -125,7 +125,7 @@ a{
   height: 100px;
 }
 h4{
-  font-size:22px;
+  font-size:16px;
   font-style: Poppins;
 }
 .col-12{
