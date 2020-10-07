@@ -291,4 +291,15 @@ i:hover{
     border-bottom: 2px solid white;
     width: 25px;
   }
+
   
+  .owl-theme .owl-dots .owl-dot span {
+    
+    margin: -2px;
+    background: #716767;
+    color: #ee6e73;
+  }
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #ee6e73;
+}
