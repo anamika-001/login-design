@@ -188,18 +188,18 @@ h2{
 }
 
 .icon-margin{
-	margin: 10px
+	margin: 7px
  
 
 }
 
 i{
     color: white;
-   line-height: 40px;
+   
     text-align: center;
-    font-size: 27px;
-     height:35px;
-  width: 35px;    
+    
+     height:30px;
+  width: 30px;    
   border-radius: 50%;
 }
 i:hover{
@@ -209,14 +209,18 @@ i:hover{
 
 
 
-.carousel-wrap {
+.carousel-wrap-1 {
     width: 900px;
     margin: auto;
     position: relative;
+    }
+
+.carousel-wrap-2 {
+    width: 1000px;
+    margin: auto;
+    position: relative;
     padding:40px;
-
-
-  }
+}
 
   .maid-image{
     border-radius: 50%;
@@ -242,7 +246,7 @@ i:hover{
   border-radius: 50%;
   position: absolute;
   left: -73px;
-    top: 42px;
+    top: 25px;
 }
 .owl-carousel .owl-nav button.owl-next{
   background-color: white;
@@ -254,8 +258,8 @@ i:hover{
     color:#ee6e73;
   border-radius: 50%;
   position: absolute;
-  right: -32px;
-   top: 42px;
+  right: -35px;
+   top: 25px;
    transition: translateY
 }
 .owl-theme .owl-nav [class*=owl-]:hover {
@@ -298,8 +302,19 @@ i:hover{
     margin: -2px;
     background: #716767;
     color: #ee6e73;
+    outline: none;
   }
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background: #ee6e73;
+    outline: none;
+}
+.owl-theme .owl-dots .owl-dot:focus span{
+  outline: none;
+}
+
+.copyright{
+      padding-top: 10px;
+    text-align: end;
+    padding-right: 47px;
 }
